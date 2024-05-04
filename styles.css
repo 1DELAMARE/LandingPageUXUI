@@ -1,0 +1,54 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ea;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+header h1 {
+    font-size: 2.5rem;
+    color: #4caf50;
+}
+/* Foto do perfil */
+.profile-photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+/* Links de navegação */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+/* Formulário de contatos */
+form {
+    margin-bottom: 20px;
+}
+/* Lista de contatos */
+#contact-list {
+    list-style: none;
+}
+/* Detalhes de atividades */
+#atividades p {
+    line-height: 1.6;
+}
